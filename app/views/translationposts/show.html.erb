@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Text:</b>
+  <%= @translationpost.text %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @translationpost.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_translationpost_path(@translationpost) %> |
+<%= link_to 'Back', translationposts_path %>
